@@ -35,10 +35,34 @@ li {
      font-weight: bold;
      letter-spacing: 2px;
      transition: 0.7s;
+     cursor: pointer;
 }
- li a:hover:not(.active) {
-     color: #90C695;
-     font-size: 33px;
+
+li a h1 {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+li a h2 {
+  font-size: 25px;
+}
+
+.secondLine {
+  font-size: 12px;
+}
+
+li a h2:hover:not(.active) {
+    color: #90C695;
+    font-size: 31px;
+}
+
+li a h1:hover:not(.active) {
+    color: #90C695;
+    font-size: 33px;
 }
  .active {
      background-color: #26A65B;
@@ -46,11 +70,15 @@ li {
 
 li:first-child {
     float: left;
-    max-width: 330px;
+    width: 380px;
+    max-width: 380px;
 }
 
 #imgFront {
   background: url('../images/hero2.jpg');
+  background-size: cover;
+  -webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
   -webkit-filter: blur(13px);
   -moz-filter: blur(13px);
   -o-filter: blur(13px);
