@@ -197,17 +197,19 @@ transition: background-image 0.3s ease-in-out;
   font-size: 30px;
   color: white;
   outline: 0;
-  background: linear-gradient(270deg, #b0b258, #d4518f);
-  background-size: 800% 800%;
+  background: #F1A9A0;
   -webkit-animation: buttonAnim 2s ease infinite;
   -moz-animation: buttonAnim 2s ease infinite;
   animation: buttonAnim 2s ease infinite;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 #getHelpButton:hover, #faqButton:hover, #getStatsButton:hover {
   background: transparent;
+  width: 310px;
+  height: 120px;
   border: 2px solid white;
 }
 
@@ -218,13 +220,11 @@ transition: background-image 0.3s ease-in-out;
   font-size: 30px;
   color: white;
   outline: 0;
-  background: linear-gradient(270deg, #5ec9ca, #66b249);
+  background: #5ec9ca;
   background-size: 800% 800%;
-  -webkit-animation: buttonAnim 2s ease infinite;
-  -moz-animation: buttonAnim 2s ease infinite;
-  animation: buttonAnim 2s ease infinite;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 #getStatsButton {
@@ -234,11 +234,9 @@ transition: background-image 0.3s ease-in-out;
   font-size: 30px;
   color: white;
   outline: 0;
-  background: linear-gradient(270deg, #bbb95c, #3c2370);
+  background: #663399;
   background-size: 800% 800%;
-  -webkit-animation: buttonAnim 2s ease infinite;
-  -moz-animation: buttonAnim 2s ease infinite;
-  animation: buttonAnim 2s ease infinite;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
 }
