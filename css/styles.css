@@ -2,6 +2,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  user-select: none;
 }
 
 #navBar {
@@ -11,12 +12,13 @@ body {
      width: 100%;
      z-index: 2;
 }
+
  ul {
      list-style-type: none;
      margin: 0;
      padding: 0;
      overflow: hidden;
-     height: 110px;
+     height: 135px;
 }
 
 li {
@@ -49,41 +51,47 @@ li a h1 {
 
 li a h2 {
   font-size: 25px;
+  transition: 0.7s;
 }
 
 .secondLine {
   font-size: 12px;
 }
 
-li a h2:hover:not(.active) {
-    color: #90C695;
+li a h2:hover {
     font-size: 31px;
 }
 
-li a h1:hover:not(.active) {
+/* li a h1:hover:not(.active) {
     color: #90C695;
     font-size: 33px;
-}
+} */
+
+/* .menuItem:hover {
+  color: #90C695;
+  font-size: 33px;
+} */
+
  .active {
      background-color: #26A65B;
 }
 
 li:first-child {
     float: left;
-    width: 380px;
-    max-width: 380px;
+    width: 320px;
+    max-width: 320px;
 }
 
 #imgFront {
   background: url('../images/hero2.jpg');
   background-size: cover;
   -webkit-transition: background-image 0.2s ease-in-out;
-transition: background-image 0.2s ease-in-out;
-  -webkit-filter: blur(13px);
-  -moz-filter: blur(13px);
-  -o-filter: blur(13px);
-  -ms-filter: blur(13px);
-  filter: blur(13px);
+transition: background-image 0.3s ease-in-out;
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
   transform: scale(1.1);
   position: fixed;
   width: 100%;
@@ -146,4 +154,91 @@ transition: background-image 0.2s ease-in-out;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
+}
+
+.box2 {
+  background: none;
+  box-shadow: none;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+.buttonBox {
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid white;
+  width: 400px;
+  height: 380px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.buttonBox h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.buttonBox h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#getHelpButton {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  outline: 0;
+  background: linear-gradient(270deg, #b0b258, #d4518f);
+  background-size: 800% 800%;
+  -webkit-animation: buttonAnim 2s ease infinite;
+  -moz-animation: buttonAnim 2s ease infinite;
+  animation: buttonAnim 2s ease infinite;
+  border: none;
+  cursor: pointer;
+}
+
+#getHelpButton:hover, #faqButton:hover, #getStatsButton:hover {
+  background: transparent;
+  border: 2px solid white;
+}
+
+#faqButton {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  outline: 0;
+  background: linear-gradient(270deg, #5ec9ca, #66b249);
+  background-size: 800% 800%;
+  -webkit-animation: buttonAnim 2s ease infinite;
+  -moz-animation: buttonAnim 2s ease infinite;
+  animation: buttonAnim 2s ease infinite;
+  border: none;
+  cursor: pointer;
+}
+
+#getStatsButton {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  outline: 0;
+  background: linear-gradient(270deg, #bbb95c, #3c2370);
+  background-size: 800% 800%;
+  -webkit-animation: buttonAnim 2s ease infinite;
+  -moz-animation: buttonAnim 2s ease infinite;
+  animation: buttonAnim 2s ease infinite;
+  border: none;
+  cursor: pointer;
 }

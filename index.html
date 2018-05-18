@@ -19,11 +19,11 @@
   </div>
     <div id="navBar">
         <ul>
-            <li id="home"><a><h2 class="menuItem">ALOHA SUPPORT <br/> <span class="secondLine">HELPING STUDENTS THE ALOHA WAY</span></h2></a></li>
-            <li id="stats"><a><h1 class="menuItem">STATISTICS</h1></a></li>
-            <li id="faq"><a><h1 class="menuItem">FAQ</h1></a></li>
-            <li id="contact"><a><h1 class="menuItem">CONTACT</h1></a></li>
-            <li id="careers"><a><h1 class="menuItem">CAREERS</h1></a></li>
+            <li><a><h2 id="home" onclick="homeClick()">ALOHA SUPPORT <span class="secondLine">HELPING STUDENTS THE ALOHA WAY</span></h2></a></li>
+            <li><a><h1 id="stats" class="menuItem" onclick="statsClick()">STATISTICS</h1></a></li>
+            <li><a><h1 id="faq" class="menuItem" onclick="faqClick()">FAQ</h1></a></li>
+            <li><a><h1 id="contact" onclick="contactClick()" class="menuItem">CONTACT</h1></a></li>
+            <li><a><h1 id="careers" onclick="careersClick()" class="menuItem">CAREERS</h1></a></li>
         </ul>
     </div>
 
@@ -35,7 +35,23 @@
         <h2>Waipahu is a place of culutre, diversity, and beauty. We understand what you're going through, and we understand the pain that comes with it. However, there is hope. We, the people of Waipahu High School, in light of the people who feel as if all hope is lost, created this website to show you that we care.</h2>
         <h2>The people of Waipahu suffer hardships daily, but they pull through and thrive. You can to. Help is always here for you. There are people who are more than willing to listen, and it's at your fingertips right now.</h2>
       </div>
-      <div class="box"></div>
+      <div class="box box2">
+        <div class="buttonBox">
+          <h1>GET HELP</h1>
+          <h2>If you feel as if you want to commit suicide, you can contact help. The numbers listed are third parties.</h2>
+          <button id="getHelpButton" onclick="contactClick()">CONTACT</button>
+        </div>
+        <div class="buttonBox">
+          <h1>KNOW THE SIGNS</h1>
+          <h2>Learn about the warning signs or early symptoms of suicide and get answers to a few frequently asked questions.</h2>
+          <button id="faqButton" onclick="faqClick()">FAQ</button>
+        </div>
+        <div class="buttonBox">
+          <h1>MORE INFO</h1>
+          <h2>Get in the know about the suicide rates in the State of Hawaii and how you can help prevent possibe suicides.</h2>
+          <button id="getStatsButton" onclick="statsClick()">STATISTICS</button>
+        </div>
+      </div>
     </div>
 
   <script src="js/app.js"></script>
