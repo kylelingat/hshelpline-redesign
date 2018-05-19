@@ -325,6 +325,7 @@ transition: background-image 0.7s ease-in-out;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  border-radius: 20px 20px 0px 0px;
 }
 
 img {
@@ -339,7 +340,7 @@ img {
   background-color: #F1A9A0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
-  width: 600px;
+  width: 620px;
   height: 730px;
   margin: auto;
   margin-bottom: 20px;
@@ -347,7 +348,7 @@ img {
 }
 
 .contactBox:hover {
-  width: 620px;
+  width: 630px;
   height: 750px;
 }
 
@@ -357,15 +358,14 @@ img {
 
 .contactBox:nth-child(2) {
   background-color: #D24D57;
-  width: 650px;
-  height: 770px;
+  height: 810px;
 
 }
 
 .contactBox:nth-child(2):hover {
   background-color: #D24D57;
-  width: 670px;
-  height: 790px;
+  width: 624px;
+  height: 820px;
 }
 
 .contactBox h1 {
