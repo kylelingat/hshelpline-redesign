@@ -85,8 +85,8 @@ body {
 #imgFront {
   background: url('../images/hero2.jpg');
   background-size: cover;
-  -webkit-transition: background-image 0.2s ease-in-out;
-transition: background-image 0.3s ease-in-out;
+  -webkit-transition: background-image 0.7s ease-in-out;
+transition: background-image 0.7s ease-in-out;
   -webkit-filter: blur(15px);
   -moz-filter: blur(15px);
   -o-filter: blur(15px);
@@ -288,12 +288,11 @@ transition: background-image 0.3s ease-in-out;
     padding: 0 18px;
     background-color: white;
     overflow: hidden;
-    margin-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     max-height: 0;
-    overflow: hidden;
+    overflow: auto;
     transition: max-height 0.3s ease-out;
 }
 
@@ -306,4 +305,13 @@ transition: background-image 0.3s ease-in-out;
 
 .panel li {
   list-style-type: circle;
+}
+
+#contactContainer {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  height: 2000px;
+  top: 200px;
+  display: none;
 }

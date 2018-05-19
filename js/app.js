@@ -5,6 +5,8 @@ $(".menuItem").hover(function() {
 });
 
 function homeClick() {
+    var $target = $('html,body');
+    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero2.jpg)');
     $('#boxContainer').css('display', 'block');
     $('#faqContainer').css('display', 'none');
@@ -22,6 +24,8 @@ function homeClick() {
 
 
 function careersClick() {
+    var $target = $('html,body');
+    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero3.jpg)');
     $('#careers').css('color', 'orange');
     $('#careers').css('border-bottom', '5px solid #F5AB35');
@@ -44,6 +48,8 @@ function careersClick() {
 }
 
 function contactClick() {
+    var $target = $('html,body');
+    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero4.jpeg)');
     $('#contact').css('color', '#F1A9A0');
     $('#contact').css('border-bottom', '5px solid #F1A9A0');
@@ -60,6 +66,8 @@ function contactClick() {
 }
 
 function faqClick() {
+    var $target = $('html,body');
+    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero5.jpg)');
     $('#faq').css('color', '#5ec9ca');
     $('#faq').css('border-bottom', '5px solid #5ec9ca');
@@ -76,6 +84,8 @@ function faqClick() {
 }
 
 function statsClick() {
+    var $target = $('html,body');
+    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero6.jpg)');
     $('#stats').css('color', '#663399');
     $('#stats').css('border-bottom', '5px solid #663399');
