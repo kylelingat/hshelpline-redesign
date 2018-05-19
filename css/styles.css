@@ -267,6 +267,7 @@ transition: background-image 0.7s ease-in-out;
     letter-spacing: 2px;
     transition: 0.4s;
     padding: 40px;
+    border-radius: 20px;
 }
 
 .urgent.accordion {
@@ -296,6 +297,7 @@ transition: background-image 0.7s ease-in-out;
     max-height: 0;
     overflow: none;
     transition: max-height 0.3s ease-out;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .panel h1 {

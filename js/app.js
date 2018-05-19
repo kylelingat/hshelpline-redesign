@@ -112,6 +112,11 @@ var i;
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
+    if(this.classList.contains("active")){
+      $(this).css("border-radius", "20px 20px 0px 0px");
+    } else {
+      $(this).css("border-radius", "20px 20px 20px 20px");
+    }
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
