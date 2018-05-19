@@ -1,21 +1,21 @@
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 10px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #52B3D9;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #90C695;
-}
+} */
 
 @-webkit-keyframes buttonAnim {
     0%{background-position:0% 50%}
@@ -27,7 +27,7 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes buttonAnim { 
+@keyframes buttonAnim {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}

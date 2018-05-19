@@ -87,11 +87,11 @@ body {
   background-size: cover;
   -webkit-transition: background-image 0.7s ease-in-out;
 transition: background-image 0.7s ease-in-out;
-  -webkit-filter: blur(15px);
-  -moz-filter: blur(15px);
-  -o-filter: blur(15px);
-  -ms-filter: blur(15px);
-  filter: blur(15px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
   transform: scale(1.1);
   position: fixed;
   width: 100%;
@@ -109,17 +109,16 @@ transition: background-image 0.7s ease-in-out;
 }
 
 .warningHeader {
-  color: white;
-  width: 100%;
-  height: 120px;
-  max-height: 120px;
   overflow: overlay;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 30px;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 2px;
   text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  overflow: none;
 }
 
 .warningHeader h1 {
@@ -130,18 +129,23 @@ transition: background-image 0.7s ease-in-out;
   background-color: rgba(255,255,255,0.1);
   color: white;
   width: 100%;
-  height: 700px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 2px solid white;
+  border-radius: 20px;
 }
 
 .box1 {
-  height: 500px;
-  max-height: 500px;
   overflow: overlay;
   margin-bottom: 20px;
   text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  overflow: none;
 }
 
 .box1 h1 {
@@ -156,12 +160,12 @@ transition: background-image 0.7s ease-in-out;
 }
 
 .box2 {
+  margin: auto;
   background: none;
   box-shadow: none;
   border: none;
   display: flex;
   flex-wrap: wrap;
-  height: 300px;
 }
 
 .buttonBox {
@@ -173,6 +177,7 @@ transition: background-image 0.7s ease-in-out;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
+  border-radius: 20px;
 }
 
 .buttonBox h1 {
@@ -192,12 +197,12 @@ transition: background-image 0.7s ease-in-out;
 #getHelpButton {
   width: 300px;
   height: 100px;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 30px;
   font-weight: bold;
   color: white;
   outline: 0;
-  background: #F1A9A0;
+  background: #F64747;
   -webkit-animation: buttonAnim 2s ease infinite;
   -moz-animation: buttonAnim 2s ease infinite;
   animation: buttonAnim 2s ease infinite;
@@ -210,25 +215,24 @@ transition: background-image 0.7s ease-in-out;
   background: transparent;
   width: 310px;
   height: 120px;
-  border: 2px solid white;
 }
 
 #getHelpButton:hover {
-  color: #F1A9A0;
+  border: 3px solid #F64747;
 }
 
 #faqButton:hover {
-  color: #5ec9ca;
+  border: 3px solid #5ec9ca;
 }
 
 #getStatsButton:hover {
-  color: #663399;
+  border: 3px solid #663399;
 }
 
 #faqButton {
   width: 300px;
   height: 100px;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -243,7 +247,7 @@ transition: background-image 0.7s ease-in-out;
 #getStatsButton {
   width: 300px;
   height: 100px;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -355,33 +359,41 @@ img {
   background-color: #F1A9A0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
-  width: 620px;
-  height: 730px;
+  width: 580px;
+  height: 760px;
   margin: auto;
   margin-bottom: 20px;
   transition: 0.3s;
 }
 
-.contactBox:hover {
-  width: 630px;
-  height: 750px;
-}
+/* .contactBox:hover {
+  width: 585px;
+  height: 735px;
+} */
 
 .contactBox:first-child {
   background-color: #F64747;
 }
 
 .contactBox:nth-child(2) {
-  background-color: #D24D57;
-  height: 820px;
-
+  background-color: #F2784B;
+  height: 760px;
 }
 
-.contactBox:nth-child(2):hover {
-  background-color: #D24D57;
-  width: 624px;
-  height: 830px;
+/* .contactBox:nth-child(2):hover {
+  height: 735px;
+} */
+
+.contactBox:nth-child(3) {
+  background-color: #F64747;
+  height: 760px;
 }
+
+/* .contactBox:nth-child(3):hover {
+  height: 735px;
+} */
+
+
 
 .contactBox h1 {
   text-align: center;
@@ -394,7 +406,7 @@ img {
 .contactBox h2 {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   padding-left: 10px;
   padding-right: 10px;

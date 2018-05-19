@@ -53,8 +53,8 @@ function contactClick() {
     var $target = $('html,body');
     $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero4.jpeg)');
-    $('#contact').css('color', '#F1A9A0');
-    $('#contact').css('border-bottom', '5px solid #F1A9A0');
+    $('#contact').css('color', '#F64747');
+    $('#contact').css('border-bottom', '5px solid #F64747');
     $('#careers').css('border-bottom', 'none');
     $('#faq').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
@@ -62,7 +62,7 @@ function contactClick() {
     $('#boxContainer').css('display', 'none');
     $('#faqContainer').css('display', 'none');
     $(".menuItem").hover(function() {
-        $(this).css({"color":"#F1A9A0","font-size":"33px"});
+        $(this).css({"color":"#F64747","font-size":"33px"});
     }).mouseout(function() {
         $(this).css({"color":"white","font-size":"30px"});
     });
