@@ -7,6 +7,7 @@ $(".menuItem").hover(function() {
 function homeClick() {
     $('#imgFront').css('background-image', 'url(./images/hero2.jpg)');
     $('#boxContainer').css('display', 'block');
+    $('#faqContainer').css('display', 'none');
     $('#contact').css('border-bottom', 'none');
     $('#careers').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
@@ -39,6 +40,7 @@ function careersClick() {
     //     $(this).css({"color":"white","font-size":"25px"});
     // });
     $('#boxContainer').css('display', 'none');
+    $('#faqContainer').css('display', 'none');
 }
 
 function contactClick() {
@@ -49,6 +51,7 @@ function contactClick() {
     $('#faq').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
     $('#boxContainer').css('display', 'none');
+    $('#faqContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#F1A9A0","font-size":"33px"});
     }).mouseout(function() {
@@ -69,6 +72,7 @@ function faqClick() {
     }).mouseout(function() {
         $(this).css({"color":"white","font-size":"30px"});
     });
+    $('#faqContainer').css('display', 'block');
 }
 
 function statsClick() {
@@ -79,9 +83,25 @@ function statsClick() {
     $('#faq').css('border-bottom', 'none');
     $('#careers').css('border-bottom', 'none');
     $('#boxContainer').css('display', 'none');
+    $('#faqContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#663399","font-size":"33px"});
     }).mouseout(function() {
         $(this).css({"color":"white","font-size":"30px"});
     });
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
 }

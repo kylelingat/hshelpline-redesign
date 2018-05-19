@@ -14,47 +14,180 @@
 </head>
 
 <body>
-  <div id="imgFront">
+    <div id="imgFront">
 
-  </div>
+    </div>
     <div id="navBar">
         <ul>
-            <li><a><h2 id="home" onclick="homeClick()">ALOHA SUPPORT <span class="secondLine">HELPING STUDENTS THE ALOHA WAY</span></h2></a></li>
-            <li><a><h1 id="stats" class="menuItem" onclick="statsClick()">STATISTICS</h1></a></li>
-            <li><a><h1 id="faq" class="menuItem" onclick="faqClick()">FAQ</h1></a></li>
-            <li><a><h1 id="contact" onclick="contactClick()" class="menuItem">CONTACT</h1></a></li>
-            <li><a><h1 id="careers" onclick="careersClick()" class="menuItem">CAREERS</h1></a></li>
+            <li>
+                <a>
+                    <h2 id="home" onclick="homeClick()">ALOHA SUPPORT <span class="secondLine">HELPING STUDENTS THE ALOHA WAY</span></h2>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <h1 id="stats" class="menuItem" onclick="statsClick()">STATISTICS</h1>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <h1 id="faq" class="menuItem" onclick="faqClick()">FAQ</h1>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <h1 id="contact" onclick="contactClick()" class="menuItem">CONTACT</h1>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <h1 id="careers" onclick="careersClick()" class="menuItem">CAREERS</h1>
+                </a>
+            </li>
         </ul>
     </div>
 
     <div id="boxContainer">
-      <div class="box warningHeader"><h1>IF YOU THINK YOUR FRIEND OR LOVED ONE IS IN THE PROCESS OF ENDING THEIR LIFE, DON'T STALL. CALL 911 IMMEDIATELY AND LOCATE YOUR FRIEND OR FAMILY MEMBER.</h1></div>
-      <div class="box box1">
-        <h1>ALOHA SUPPORT</h1>
-        <h2>You're not alone</h2>
-        <h2>Waipahu is a place of culutre, diversity, and beauty. We understand what you're going through, and we understand the pain that comes with it. However, there is hope. We, the people of Waipahu High School, in light of the people who feel as if all hope is lost, created this website to show you that we care.</h2>
-        <h2>The people of Waipahu suffer hardships daily, but they pull through and thrive. You can to. Help is always here for you. There are people who are more than willing to listen, and it's at your fingertips right now.</h2>
-      </div>
-      <div class="box box2">
-        <div class="buttonBox">
-          <h1>GET HELP</h1>
-          <h2>If you feel as if you want to commit suicide, you can contact help. The numbers listed are third parties.</h2>
-          <button id="getHelpButton" onclick="contactClick()">CONTACT</button>
+        <div class="box warningHeader">
+            <h1>IF YOU THINK YOUR FRIEND OR LOVED ONE IS IN THE PROCESS OF ENDING THEIR LIFE, DON'T STALL. CALL 911 IMMEDIATELY AND LOCATE YOUR FRIEND OR FAMILY MEMBER.</h1>
         </div>
-        <div class="buttonBox">
-          <h1>KNOW THE SIGNS</h1>
-          <h2>Learn about the warning signs or early symptoms of suicide and get answers to a few frequently asked questions.</h2>
-          <button id="faqButton" onclick="faqClick()">FAQ</button>
+        <div class="box box1">
+            <h1>ALOHA SUPPORT</h1>
+            <h2>You're not alone</h2>
+            <h2>Waipahu is a place of culutre, diversity, and beauty. We understand what you're going through, and we understand the pain that comes with it. However, there is hope. We, the people of Waipahu High School, in light of the people who feel as
+                if all hope is lost, created this website to show you that we care.</h2>
+            <h2>The people of Waipahu suffer hardships daily, but they pull through and thrive. You can to. Help is always here for you. There are people who are more than willing to listen, and it's at your fingertips right now.</h2>
         </div>
-        <div class="buttonBox">
-          <h1>MORE INFO</h1>
-          <h2>Get in the know about the suicide rates in the State of Hawaii and how you can help prevent possibe suicides.</h2>
-          <button id="getStatsButton" onclick="statsClick()">STATISTICS</button>
+        <div class="box box2">
+            <div class="buttonBox">
+                <h1>GET HELP</h1>
+                <h2>If you feel as if you want to commit suicide, you can contact help. The numbers listed are third parties.</h2>
+                <button id="getHelpButton" onclick="contactClick()">CONTACT</button>
+            </div>
+            <div class="buttonBox">
+                <h1>KNOW THE SIGNS</h1>
+                <h2>Learn about the warning signs or early symptoms of suicide and get answers to a few frequently asked questions.</h2>
+                <button id="faqButton" onclick="faqClick()">FAQ</button>
+            </div>
+            <div class="buttonBox">
+                <h1>MORE INFO</h1>
+                <h2>Get in the know about the suicide rates in the State of Hawaii and how you can help prevent possibe suicides.</h2>
+                <button id="getStatsButton" onclick="statsClick()">STATISTICS</button>
+            </div>
         </div>
-      </div>
     </div>
 
-  <script src="js/app.js"></script>
+    <div id="faqContainer">
+
+        <div class="fact">
+          <button class="urgent accordion">If you believe that your friend, family member, or loved one is about to commit suicide, call 911 immediately. These are warning signs to indicate that he or she may commit suicide.</button>
+          <div class="panel">
+              <h1>If he/she talks about</h1>
+              <ul>
+                <li>Killing themselves</li>
+                <li>Feeling hopeless</li>
+                <li>Having no reason to live</li>
+                <li>Being a burden to others</li>
+                <li>Feeling trapped</li>
+                <li>Unbearable pain</li>
+              </ul>
+
+              <h1>If his/hers behavior is</h1>
+              <ul>
+                <li>Increased use of alcohol or drugs</li>
+                <li>Looking for a way to end their lives, such as searching online for materials or means</li>
+                <li>Withdrawing from activities</li>
+                <li>Isolating from family and friends</li>
+                <li>Sleeping too much or too little</li>
+                <li>Giving away prized possessions</li>
+                <li>Aggression</li>
+                <li>Fatigue</li>
+              </ul>
+
+              <h1>His/Hers Mental health conditions</h1>
+              <ul>
+                <li>Depression</li>
+                <li>Substance use problems</li>
+                <li>Bipolar disorder</li>
+                <li>Schizophrenia</li>
+                <li>Personality traits of aggression, mood changes and poor relationships</li>
+                <li>Conduct disorder</li>
+                <li>Anxiety disorders</li>
+                <li>Serious or chronic health conditions and/or pain</li>
+                <li>Traumatic brain injury</li>
+              </ul>
+
+              <h1>His/Hers environmental factors</h1>
+              <ul>
+                <li>Access to lethal means including firearms and drugs</li>
+                <li>Prolonged stress, such as harassment, bullying, relationship problems or unemployment</li>
+                <li>Stressful life events, which may include a death, divorce or job loss</li>
+                <li>Exposure to another person’s suicide, or to graphic or sensationalized accounts of suicide</li>
+              </ul>
+
+              <h1>His/Hers historical factors</h1>
+              <ul>
+                <li>Previous suicide attempts</li>
+                <li>Family history of suicide</li>
+                <li>Childhood abuse, neglect or trauma</li>
+              </ul>
+          </div>
+        </div>
+        <div class="fact">
+            <button class="accordion">What should you do if someone tells you that they are thinking of suicide?</button>
+            <div class="panel">
+                <p>Suicide is preventable and should be taken seriously. If anyone expresses or shows warnings of their intention help them or help them seek help immediately. You have to be aware that most people considering suicide are going through a hard time and feel hopeless and thinks that there is no alternative solution. When someone tells you they are thinking of suicide listen non-judgmentally and help them get professional help.</p>
+            </div>
+        </div>
+
+        <div class="fact">
+            <button class="accordion">Is it possible to predict suicide?</button>
+            <div class="panel">
+                <p>There is no definite measure to predict suicide or suicidal behavior. Though being aware of risk factors and warning signs can help detect someone at risk for suicide.</p>
+            </div>
+        </div>
+
+        <div class="fact">
+            <button class="accordion">Why do people attempt suicide?</button>
+            <div class="panel">
+                <p>Many people attempt suicide for many different reasons. Attempting suicide is a huge warning sign that something is wrong in a person's life. Majority of people who have attempted or committed suicide had some time of underlying mental illness or substance abuse problem at the time of the incident.</p>
+            </div>
+        </div>
+        <div class="fact">
+            <button class="accordion">Do people suicide to prove something or get sympathy?</button>
+            <div class="panel">
+                <p>A suicide attempt should always be taken seriously and never taken lightly because it is a sign that something is terribly wrong. The majority of people who attempt suicide are unsure that they want to die.</p>
+            </div>
+        </div>
+
+        <div class="fact">
+            <button class="accordion">Apart from talking to a suicidal person and encouraging him or her to go for counseling, what else can we do to prevent this?</button>
+            <div class="panel">
+                <p>Apart from talking to a suicidal person and encouraging him or her to go for counseling, what else can we do to prevent this?</p>
+            </div>
+        </div>
+
+        <div class="fact">
+            <button class="accordion">Why do people attempt suicide when they appear to feel better?</button>
+            <div class="panel">
+                <p>Some people that are contemplating suicide may be too tired to do it from depression and when they start to feel better it gives them the energy to do such activities but feelings of hopelessness remain and the energy that they regain may result in a suicide attempt.</p>
+            </div>
+        </div>
+        <div class="fact">
+            <button class="accordion">Why do people avoid talking about mental illnesses like depression, bipolar disorder and suicide?</button>
+            <div class="panel">
+                <p>One of the main reasons is because there is a lack of understanding and stigma. People with disorders or illnesses fear that other people will think that they’re weak, crazy or somehow a lesser person.</p>
+            </div>
+        </div>
+        <div class="fact">
+            <button class="accordion">What does 'suicide contagion' mean, and what can be done to prevent it?</button>
+            <div class="panel">
+                <p>Suicide contagion is the exposure to suicide or suicidal behaviors. This exposure can be caused from the media, family members, peer groups and can increase the suicidal behaviors someone may have. This can be prevented by the media not being repetitive about reports of suicide, and reports not be detailed in how the person did it.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
 
 </html>
