@@ -358,14 +358,14 @@ img {
 
 .contactBox:nth-child(2) {
   background-color: #D24D57;
-  height: 810px;
+  height: 820px;
 
 }
 
 .contactBox:nth-child(2):hover {
   background-color: #D24D57;
   width: 624px;
-  height: 820px;
+  height: 830px;
 }
 
 .contactBox h1 {
