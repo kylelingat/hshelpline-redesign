@@ -454,6 +454,10 @@ hr {
   border-radius: 0px 20px 20px 0px;
 }
 
+.careerCard:nth-child(6) {
+  border-radius: 0px 20px 20px 0px;
+}
+
 .careerImg:nth-child(2) {
   border-radius: 0px 20px 20px 0px;
   background-image: url("../images/psycho.jpg");
@@ -484,4 +488,5 @@ hr {
   letter-spacing: 2px;
   color: white;
   margin-left: 20px;
+  margin-right: 20px;
 }
