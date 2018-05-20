@@ -150,7 +150,8 @@ transition: background-image 0.7s ease-in-out;
 
 .box1 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 80px;
+  font-size: 40px;
+  word-break: normal;
 }
 
 .box1 h2 {
@@ -195,7 +196,7 @@ transition: background-image 0.7s ease-in-out;
 }
 
 #getHelpButton {
-  width: 300px;
+  width: 70%;
   height: 100px;
   border-radius: 20px;
   font-size: 30px;
@@ -213,7 +214,7 @@ transition: background-image 0.7s ease-in-out;
 
 #getHelpButton:hover, #faqButton:hover, #getStatsButton:hover {
   background: transparent;
-  width: 310px;
+  width: 75%;
   height: 120px;
 }
 
@@ -230,7 +231,7 @@ transition: background-image 0.7s ease-in-out;
 }
 
 #faqButton {
-  width: 300px;
+  width: 70%;
   height: 100px;
   border-radius: 20px;
   font-size: 30px;
@@ -245,7 +246,7 @@ transition: background-image 0.7s ease-in-out;
 }
 
 #getStatsButton {
-  width: 300px;
+  width: 70%;
   height: 100px;
   border-radius: 20px;
   font-size: 30px;
@@ -289,13 +290,13 @@ transition: background-image 0.7s ease-in-out;
 }
 
 .urgent.accordion {
-  background-color: #C0392B;
+  background-color: #F64747;
   color: white;
 }
 
 .urgent.accordion:hover {
   background-color: white;
-  color: #C0392B;
+  color: #F64747;
   padding: 50px;
 }
 
@@ -416,4 +417,71 @@ hr {
   width: 80%;
   height: 2px;
   background-color: white;
+}
+
+#careersContainer {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  top: 200px;
+  display: none;
+}
+
+.careerCard {
+  background-color: #F5AB35;
+  margin-bottom: 20px;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  transition: 0.3s;
+}
+
+.careerImg {
+  width: 33%;
+  max-height: 900px;
+  display: inline-block;
+  background-image: url("../images/counselor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.careerCard:nth-child(2) {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.careerCard:nth-child(4) {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.careerImg:nth-child(2) {
+  border-radius: 0px 20px 20px 0px;
+  background-image: url("../images/psycho.jpg");
+}
+
+
+.careerImg:nth-child(4) {
+  border-radius: 0px 20px 20px 0px;
+  background-image: url("../images/waipahu.jpg");
+}
+
+.jobDesc {
+  width: 67%;
+}
+.jobDesc h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.jobDesc p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  margin-left: 20px;
 }

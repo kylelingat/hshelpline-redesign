@@ -11,6 +11,7 @@ function homeClick() {
     $('#boxContainer').css('display', 'block');
     $('#faqContainer').css('display', 'none');
     $('#contactContainer').css('display', 'none');
+    $('#careersContainer').css('display', 'none');
     $('#contact').css('border-bottom', 'none');
     $('#careers').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
@@ -33,6 +34,7 @@ function careersClick() {
     $('#contact').css('border-bottom', 'none');
     $('#faq').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
+    $('#careersContainer').css('display', 'block');
     $('#boxContainer').css('display', 'none');
     $('#contactContainer').css('display', 'none');
     $(".menuItem").hover(function() {
@@ -61,6 +63,7 @@ function contactClick() {
     $('#contactContainer').css('display', 'block');
     $('#boxContainer').css('display', 'none');
     $('#faqContainer').css('display', 'none');
+    $('#careersContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#F64747","font-size":"33px"});
     }).mouseout(function() {
@@ -79,6 +82,7 @@ function faqClick() {
     $('#contactContainer').css('display', 'none');
     $('#stats').css('border-bottom', 'none');
     $('#boxContainer').css('display', 'none');
+    $('#careersContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#5ec9ca","font-size":"33px"});
     }).mouseout(function() {
@@ -98,6 +102,7 @@ function statsClick() {
     $('#careers').css('border-bottom', 'none');
     $('#boxContainer').css('display', 'none');
     $('#faqContainer').css('display', 'none');
+    $('#careersContainer').css('display', 'none');
     $('#contactContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#663399","font-size":"33px"});
