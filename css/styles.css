@@ -411,6 +411,9 @@ img {
   height: 735px;
 } */
 
+.contactBox:hover {
+  transform: scale(1.1);
+}
 
 
 .contactBox h1 {
@@ -451,6 +454,7 @@ hr {
   display: flex;
   transition: 0.3s;
 }
+
 
 .careerImg {
   width: 33%;
