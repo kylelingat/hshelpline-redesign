@@ -85,7 +85,7 @@ function homeClick() {
     onFaq = 0;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
+    $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero2.jpg)');
     $('#boxContainer').css('display', 'block');
     $('#faqContainer').css('display', 'none');
@@ -112,7 +112,7 @@ function careersClick() {
     onFaq = 0;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
+    $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero3.jpg)');
     $('#careers').css('color', '#1F3A93');
     $('#careers').css('border-bottom', '5px solid  #1F3A93');
@@ -145,7 +145,7 @@ function contactClick() {
     onFaq = 0;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
+    $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero4.jpg)');
     $('#contact').css('color', '#F64747');
     $('#contact').css('border-bottom', '5px solid #F64747');
@@ -172,7 +172,7 @@ function faqClick() {
     onFaq = 1;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
+    $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero5.jpg)');
     $('#faq').css('color', '#5ec9ca');
     $('#faq').css('border-bottom', '5px solid #5ec9ca');
@@ -199,7 +199,7 @@ function statsClick() {
     onFaq = 0;
     onStat = 1;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
+    $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero6.jpg)');
     $('#stats').css('color', '#663399');
     $('#stats').css('border-bottom', '5px solid #663399');
