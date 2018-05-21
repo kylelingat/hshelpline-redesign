@@ -92,11 +92,11 @@ html, body {
   background-size: cover;
   -webkit-transition: background-image 0.3s ease-in-out;
 transition: background-image 0.3s ease-in-out;
-  -webkit-filter: blur(15px);
-  -moz-filter: blur(15px);
-  -o-filter: blur(15px);
-  -ms-filter: blur(15px);
-  filter: blur(15px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
   transform: scale(1.1);
   position: fixed;
   width: 100%;
