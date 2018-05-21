@@ -12,7 +12,14 @@ preload(
     "./images/hero6.jpg",
     "./images/helpline.jpg",
     "./images/waipahu.jpg",
-    "./images/nami.jpg"
+    "./images/nami.jpg",
+    "./images/childandfamily.jpg",
+    "./images/clinical.jpg",
+    "./images/counselor.jpg",
+    "./images/pyscho.jpg",
+    "./images/manager.jpg",
+    "./images/socialworker.jpeg",
+    "./images/subabuse.jpg"
 )
 $(".menuItem").hover(function() {
     $(this).css({"color":"#90C695","font-size":"33px"});
