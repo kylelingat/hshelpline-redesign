@@ -139,6 +139,7 @@ transition: background-image 0.3s ease-in-out;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 2px solid white;
   border-radius: 20px;
+  transition: 0.3s;
 }
 
 .box1 {
@@ -173,6 +174,7 @@ transition: background-image 0.3s ease-in-out;
   border: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .buttonBox {
@@ -185,6 +187,7 @@ transition: background-image 0.3s ease-in-out;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 20px;
+  transition: 0.3s;
 }
 
 .buttonBox h1 {
@@ -274,6 +277,9 @@ transition: background-image 0.3s ease-in-out;
   display: none;
 }
 
+.box1:hover, .warningHeader:hover, .buttonBox:hover {
+  transform: scale(1.05);
+}
 .fact {
   margin-bottom: 20px;
 }

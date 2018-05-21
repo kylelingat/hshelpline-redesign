@@ -244,9 +244,9 @@ $(document).ready(function(){
       if(onHome == 1){
         $(this).css("background-color", "#90C695");
       } else if (onCareer == 1) {
-        $(this).css("background-color", "#F64747");
-      } else if (onContact == 1) {
         $(this).css("background-color", "#1F3A93");
+      } else if (onContact == 1) {
+        $(this).css("background-color", "#F64747");
       } else if (onFaq == 1) {
         $(this).css("background-color", "#5ec9ca");
       } else if (onStat == 1) {
