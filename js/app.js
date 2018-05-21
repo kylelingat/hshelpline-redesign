@@ -115,7 +115,7 @@ function careersClick() {
     $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero3.jpg)');
     $('#careers').css('color', '#1F3A93');
-    $('#careers').css('border-bottom', '5px solid  #1F3A93');
+    $('#careers').css('border-bottom', '8px solid  #1F3A93');
     $('#contact').css('border-bottom', 'none');
     $('#faq').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
@@ -148,7 +148,7 @@ function contactClick() {
     $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero4.jpg)');
     $('#contact').css('color', '#F64747');
-    $('#contact').css('border-bottom', '5px solid #F64747');
+    $('#contact').css('border-bottom', '8px solid #F64747');
     $('#careers').css('border-bottom', 'none');
     $('#faq').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
@@ -175,7 +175,7 @@ function faqClick() {
     $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero5.jpg)');
     $('#faq').css('color', '#5ec9ca');
-    $('#faq').css('border-bottom', '5px solid #5ec9ca');
+    $('#faq').css('border-bottom', '8px solid #5ec9ca');
     $('#contact').css('border-bottom', 'none');
     $('#careers').css('border-bottom', 'none');
     $('#contactContainer').css('display', 'none');
@@ -202,7 +202,7 @@ function statsClick() {
     $target.animate({scrollTop: $("body").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero6.jpg)');
     $('#stats').css('color', '#663399');
-    $('#stats').css('border-bottom', '5px solid #663399');
+    $('#stats').css('border-bottom', '8px solid #663399');
     $('#contact').css('border-bottom', 'none');
     $('#faq').css('border-bottom', 'none');
     $('#careers').css('border-bottom', 'none');
