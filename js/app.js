@@ -248,7 +248,7 @@ $(document).ready(function(){
         $(".disclaimer p").css("display", "block");
         $(".disclaimer h1").css("color", "white");
         $(".disclaimer p").css("color", "white");
-        $(".disclaimer").css("margin-top", "500px");
+        $(".disclaimer").css("margin-top", "400px");
     });
     $(".disclaimer").mouseout(function(){
         $(this).css("background-color", "transparent");
