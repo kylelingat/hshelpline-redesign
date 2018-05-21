@@ -135,3 +135,20 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+$(document).ready(function(){
+    $(".disclaimer").mouseover(function(){
+        $(this).css("background-color", "#90C695");
+        $(".disclaimer p").css("display", "block");
+        $(".disclaimer h1").css("color", "white");
+        $(".disclaimer p").css("color", "white");
+        $(".disclaimer").css("margin-top", "500px");
+    });
+    $(".disclaimer").mouseout(function(){
+        $(this).css("background-color", "transparent");
+        $(".disclaimer").css("margin-top", "600px");
+        $(".disclaimer h1").css("color", "black");
+        $(".disclaimer p").css("color", "black");
+    });
+});

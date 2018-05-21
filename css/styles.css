@@ -1,7 +1,12 @@
-body {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
+html, body {
+   margin:0;
+   padding:0;
+   height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
 #navBar {
@@ -501,4 +506,34 @@ hr {
   width: 80%;
   top: 200px;
   display: none;
+}
+
+.disclaimer {
+  position: absolute;
+  position: 0;
+  margin-top: 600px;
+  border-top: 1px solid white;
+  background-color: transparent;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.disclaimer:hover {
+  cursor: pointer;
+}
+
+.disclaimer h1 {
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.disclaimer p {
+  margin-left: 20px;
+  display: none;
+  letter-spacing: 3px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
 }
