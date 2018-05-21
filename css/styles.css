@@ -11,7 +11,6 @@ html, body {
 }
 
 #navBar {
-     position: absolute;
      top: 0;
      left: 0;
      width: 100%;
@@ -111,7 +110,7 @@ transition: background-image 0.3s ease-in-out;
   position: relative;
   margin: auto;
   width: 70%;
-  top: 200px;
+  top: 60px;
 }
 
 .warningHeader {
@@ -273,7 +272,7 @@ transition: background-image 0.3s ease-in-out;
   position: relative;
   margin: auto;
   width: 70%;
-  top: 200px;
+  top: 60px;
   display: none;
 }
 
@@ -346,7 +345,7 @@ transition: background-image 0.3s ease-in-out;
   position: relative;
   margin: auto;
   width: 99%;
-  top: 200px;
+  top: 60px;
   display: none;
 }
 
@@ -449,7 +448,7 @@ hr {
   position: relative;
   margin: auto;
   width: 80%;
-  top: 200px;
+  top: 60px;
   display: none;
 }
 
@@ -549,7 +548,7 @@ hr {
   position: relative;
   margin: auto;
   width: 80%;
-  top: 200px;
+  top: 60px;
   display: none;
 }
 
