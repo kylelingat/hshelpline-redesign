@@ -315,7 +315,7 @@ transition: background-image 0.3s ease-in-out;
 .active, .accordion:hover {
     background-color: #5ec9ca;
     color: white;
-    padding: 50px;
+    padding: 60px;
 }
 
 .panel {
