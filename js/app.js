@@ -22,7 +22,7 @@ preload(
     "./images/subabuse.jpg"
 )
 $(".menuItem").hover(function() {
-    $(this).css({"color":"#90C695","font-size":"33px"});
+    $(this).css({"color":"#00B16A","font-size":"33px"});
 }).mouseout(function() {
     $(this).css({"color":"white","font-size":"30px"});
 });
@@ -98,7 +98,7 @@ function homeClick() {
     $('#faq').css('border-bottom', 'none');
     $('.menuItem').css('color', 'white');
     $(".menuItem").hover(function() {
-        $(this).css({"color":"#90C695","font-size":"33px"});
+        $(this).css({"color":"#00B16A","font-size":"33px"});
     }).mouseout(function() {
         $(this).css({"color":"white","font-size":"30px"});
     });
@@ -242,7 +242,7 @@ for (i = 0; i < acc.length; i++) {
 $(document).ready(function(){
     $(".disclaimer").mouseover(function(){
       if(onHome == 1){
-        $(this).css("background-color", "#90C695");
+        $(this).css("background-color", "#00B16A");
       } else if (onCareer == 1) {
         $(this).css("background-color", "#1F3A93");
       } else if (onContact == 1) {

@@ -91,6 +91,12 @@
   margin: auto;
 }
 
+.bar {
+  transition: 0.3s;
+}
+.bar:hover {
+  transform: scale(1.1);
+}
 .bar-graph li {
   display: block;
   padding: 1.5625rem 0;

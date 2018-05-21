@@ -91,12 +91,12 @@ html, body {
   background: url('../images/hero2.jpg');
   background-size: cover;
   -webkit-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
+  transition: background-image 0.3s ease-in-out;
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
-  filter: blur(2px);
+  filter: blur(7px);
   transform: scale(1.1);
   position: fixed;
   width: 100%;
@@ -164,6 +164,11 @@ transition: background-image 0.3s ease-in-out;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
+}
+
+.box1 p {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .box2 {
@@ -453,13 +458,20 @@ hr {
 }
 
 .careerCard {
-  background-color: #E26A6A;
+  background-color: white;
   margin-bottom: 40px;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 20px 20px 20px 20px;
   display: flex;
   transition: 0.3s;
+  color:  black;
 }
 
+.careerCard:hover {
+  background-color: #1F3A93;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
 
 .careerImg {
   width: 33%;
@@ -497,20 +509,14 @@ hr {
 }
 
 .careerCard:nth-child(2) {
-  background-color: #1F3A93;
-  border-radius: 0px 20px 20px 0px;
 }
 
 .careerCard:nth-child(4) {
-  border-radius: 0px 20px 20px 0px;
-  background-color: #1F3A93;
 }
 
 
 
 .careerCard:nth-child(6) {
-  border-radius: 0px 20px 20px 0px;
-  background-color: #1F3A93;
 }
 
 .careerImg:nth-child(2) {
@@ -530,16 +536,13 @@ hr {
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color: white;
   letter-spacing: 2px;
 }
 
 .jobDesc p {
   font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
-  color: white;
   margin-left: 20px;
   margin-right: 20px;
 }
