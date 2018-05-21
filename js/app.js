@@ -12,6 +12,7 @@ function homeClick() {
     $('#faqContainer').css('display', 'none');
     $('#contactContainer').css('display', 'none');
     $('#careersContainer').css('display', 'none');
+    $('#statsContainer').css('display', 'none');
     $('#contact').css('border-bottom', 'none');
     $('#careers').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
@@ -29,16 +30,17 @@ function careersClick() {
     var $target = $('html,body');
     $target.animate({scrollTop: $("#navBar").offset().top}, 700);
     $('#imgFront').css('background-image', 'url(./images/hero3.jpg)');
-    $('#careers').css('color', 'orange');
-    $('#careers').css('border-bottom', '5px solid #F5AB35');
+    $('#careers').css('color', '#1F3A93');
+    $('#careers').css('border-bottom', '5px solid  #1F3A93');
     $('#contact').css('border-bottom', 'none');
     $('#faq').css('border-bottom', 'none');
     $('#stats').css('border-bottom', 'none');
     $('#careersContainer').css('display', 'block');
     $('#boxContainer').css('display', 'none');
+    $('#statsContainer').css('display', 'none');
     $('#contactContainer').css('display', 'none');
     $(".menuItem").hover(function() {
-        $(this).css({"color":"#F5AB35","font-size":"33px"});
+        $(this).css({"color":" #1F3A93","font-size":"33px"});
     }).mouseout(function() {
         $(this).css({"color":"white","font-size":"30px"});
     });
@@ -63,6 +65,7 @@ function contactClick() {
     $('#contactContainer').css('display', 'block');
     $('#boxContainer').css('display', 'none');
     $('#faqContainer').css('display', 'none');
+    $('#statsContainer').css('display', 'none');
     $('#careersContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#F64747","font-size":"33px"});
@@ -83,6 +86,7 @@ function faqClick() {
     $('#stats').css('border-bottom', 'none');
     $('#boxContainer').css('display', 'none');
     $('#careersContainer').css('display', 'none');
+    $('#statsContainer').css('display', 'none');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#5ec9ca","font-size":"33px"});
     }).mouseout(function() {
@@ -104,6 +108,7 @@ function statsClick() {
     $('#faqContainer').css('display', 'none');
     $('#careersContainer').css('display', 'none');
     $('#contactContainer').css('display', 'none');
+    $('#statsContainer').css('display', 'block');
     $(".menuItem").hover(function() {
         $(this).css({"color":"#663399","font-size":"33px"});
     }).mouseout(function() {

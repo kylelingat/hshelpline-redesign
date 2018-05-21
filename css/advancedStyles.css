@@ -32,3 +32,146 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+
+#statsContainer h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+
+.bar-graph {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 350px;
+  margin: 0;
+}
+
+.bar-graph li {
+  display: block;
+  padding: 1.5625rem 0;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+  border-radius: 4px 4px 0 0;
+  max-width: 20%;
+  height: 100%;
+  margin: 0 1.8% 0 0;
+  -webkit-flex: 1 1 15%;
+      -ms-flex: 1 1 15%;
+          flex: 1 1 15%;
+}
+
+.bar-graph .bar-graph-axis {
+  -webkit-flex: 1 1 8%;
+      -ms-flex: 1 1 8%;
+          flex: 1 1 8%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bar-graph .bar-graph-label {
+  margin: 0;
+  background-color: none;
+  color: #8a8a8a;
+  position: relative;
+}
+
+@media print, screen and (min-width: 40em) {
+  .bar-graph .bar-graph-label:before, .bar-graph .bar-graph-label:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px dashed #8a8a8a;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 20%;
+  }
+}
+
+@media print, screen and (min-width: 40em) and (min-width: 64em) {
+  .bar-graph .bar-graph-label:before, .bar-graph .bar-graph-label:after {
+    width: 30%;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .bar-graph .bar-graph-label:after {
+    left: auto;
+    right: 0;
+  }
+}
+
+.bar-graph .percent {
+  letter-spacing: -3px;
+  opacity: 0.4;
+  width: 100%;
+  font-size: 1.875rem;
+  position: absolute;
+  letter-spacing: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+
+
+.bar-graph .percent span {
+  font-size: 1.875rem;
+}
+
+.bar-graph .description {
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 14px;
+  bottom: 20px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.bar-graph .bar.primary {
+  border: 1px solid #663399;
+  background: #663399;
+}
+
+.bar-graph .bar.secondary {
+  border: 1px solid #674172;
+  background: #674172;
+}
+
+.bar-graph .bar.success {
+  border: 1px solid #DCC6E0;
+  background: #DCC6E0;
+}
+
+.bar-graph .bar.warning {
+  border: 1px solid #947CB0;
+  background: #947CB0;
+}
+
+.bar-graph .bar.alert {
+  border: 1px solid #663399;
+  background: #663399;
+}

@@ -85,8 +85,8 @@ body {
 #imgFront {
   background: url('../images/hero2.jpg');
   background-size: cover;
-  -webkit-transition: background-image 0.7s ease-in-out;
-transition: background-image 0.7s ease-in-out;
+  -webkit-transition: background-image 0.3s ease-in-out;
+transition: background-image 0.3s ease-in-out;
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
   -o-filter: blur(10px);
@@ -428,8 +428,8 @@ hr {
 }
 
 .careerCard {
-  background-color: #F5AB35;
-  margin-bottom: 20px;
+  background-color: #E26A6A;
+  margin-bottom: 40px;
   border-radius: 20px 0px 0px 20px;
   display: flex;
   transition: 0.3s;
@@ -447,15 +447,18 @@ hr {
 }
 
 .careerCard:nth-child(2) {
-  border-radius: 0px 20px 20px 0px;
+  background-color: #1F3A93;
 }
 
 .careerCard:nth-child(4) {
   border-radius: 0px 20px 20px 0px;
+  background-color: #1F3A93;
 }
+
 
 .careerCard:nth-child(6) {
   border-radius: 0px 20px 20px 0px;
+  background-color: #1F3A93;
 }
 
 .careerImg:nth-child(2) {
@@ -489,4 +492,12 @@ hr {
   color: white;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#statsContainer {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  top: 200px;
+  display: none;
 }
