@@ -43,17 +43,24 @@
   letter-spacing: 2px;
 }
 
+#statsContainer hr {
+  width: 80%;
+}
+
+#nationalAttempt {
+  margin-bottom: 80px;
+}
 
 .bar-graph {
-  width: 100%;
+  width: 50%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 350px;
-  margin: 0;
+  height: 250px;
+  margin: auto;
 }
 
 .bar-graph li {
@@ -122,8 +129,9 @@
   letter-spacing: -3px;
   opacity: 0.4;
   width: 100%;
-  font-size: 1.875rem;
+  font-size: 20px;
   position: absolute;
+  top: -1px;
   letter-spacing: 5px;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -132,7 +140,7 @@
 
 
 .bar-graph .percent span {
-  font-size: 1.875rem;
+  font-size: 18px
 }
 
 .bar-graph .description {
