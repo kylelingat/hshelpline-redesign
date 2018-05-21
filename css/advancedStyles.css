@@ -17,6 +17,34 @@
     background: #90C695;
 } */
 
+.icon {
+  background-image: url('../images/hamburger.png');
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  display: none;
+}
+/* @media screen and (max-width: 600px) {
+  #navBar li:not(:first-child) {background-color: black;}
+  #navBar li.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navBar.responsive {position: relative;}
+  #navBar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} */
+
 @-webkit-keyframes buttonAnim {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}

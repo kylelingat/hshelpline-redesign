@@ -20,6 +20,15 @@ $(".menuItem").hover(function() {
     $(this).css({"color":"white","font-size":"30px"});
 });
 
+// function myFunction() {
+//     var x = document.getElementById("myTopnav");
+//     if (x.className === "topnav") {
+//         x.className += " responsive";
+//     } else {
+//         x.className = "topnav";
+//     }
+// }
+
 var onHome = 1;
 var onCareer = 0;
 var onContact = 0;
@@ -96,7 +105,7 @@ function careersClick() {
     onFaq = 0;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
+    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
     $('#imgFront').css('background-image', 'url(./images/hero3.jpg)');
     $('#careers').css('color', '#1F3A93');
     $('#careers').css('border-bottom', '5px solid  #1F3A93');
@@ -129,7 +138,7 @@ function contactClick() {
     onFaq = 0;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
+    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
     $('#imgFront').css('background-image', 'url(./images/hero4.jpg)');
     $('#contact').css('color', '#F64747');
     $('#contact').css('border-bottom', '5px solid #F64747');
@@ -156,7 +165,7 @@ function faqClick() {
     onFaq = 1;
     onStat = 0;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
+    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
     $('#imgFront').css('background-image', 'url(./images/hero5.jpg)');
     $('#faq').css('color', '#5ec9ca');
     $('#faq').css('border-bottom', '5px solid #5ec9ca');
@@ -183,7 +192,7 @@ function statsClick() {
     onFaq = 0;
     onStat = 1;
     var $target = $('html,body');
-    $target.animate({scrollTop: $("#navBar").offset().top}, 700);
+    $target.animate({scrollTop: $("#navBar").offset().top}, 200);
     $('#imgFront').css('background-image', 'url(./images/hero6.jpg)');
     $('#stats').css('color', '#663399');
     $('#stats').css('border-bottom', '5px solid #663399');
